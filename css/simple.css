@@ -1,0 +1,81 @@
+body{
+  background-image: url(../img/背景2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+header{
+  height: 64px;
+  margin-bottom: 16px;
+}
+header h1{
+  text-align: center;
+  font-size: 56px;
+  font-family: 'Smooch', cursive;
+  padding-top: 8px;
+  color: white;
+}
+.main_area{
+  display: flex;
+  justify-content: space-around;
+}
+.img_area{
+  padding-top: 26px;
+  border: double black 8px;
+}
+.outputarea{
+  width: 50%;
+  background-image: url("../img/背景.jpeg");
+  background-position: center;
+  background-size: cover;
+  border: double 8px black;
+  /* width:fit-conten; */
+}
+.umsg_area{
+  text-align: right;
+}
+.umsg{
+  text-align: right;
+  background-color: aquamarine;
+  display: inline-block;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.bmsg{
+  background-color: white;
+  display: inline-block;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.bottom_area{
+  text-align: right;
+  margin-top: 16px;
+}
+.input_area{
+  margin-right: 32px;
+}
+#input{
+  margin-top: 8px;
+  width:40%;
+  height: 48px;
+}
+#btn{
+  height: 52px;
+  width: 8%;
+  font-size: 32px;
+  overflow: visible;
+  vertical-align:middle; 
+  font-family: 'Koulen', cursive;
+}
+#rmbtn{
+  height: 52px;
+  width: 16%;
+  font-size: 32px;
+  margin-top: 16px;
+  overflow: visible;
+  vertical-align:middle; 
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  margin-right: 176px;
+}

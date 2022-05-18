@@ -1,0 +1,35 @@
+body{
+  background-image: url(../img/背景3.jpeg);
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.top h1{
+  margin-top: 32px;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+}
+
+.btn_area{
+  text-align: center;
+}
+
+.btn_area{
+  margin-top: 24%;
+}
+.mael{
+  font-size: 40px;
+  /* font-family: 'Koulen', cursive; */
+  background-color: rgba(255, 255, 225, 0.3);
+  font-weight: bold;
+  color: white;
+  margin-right: 32px;
+
+}
+.female{
+  font-size: 40px;
+  background-color: rgba(255, 255, 225, 0.3);
+  font-weight: bold;
+  color: white;
+}
