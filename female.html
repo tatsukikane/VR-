@@ -95,7 +95,7 @@
   // 送信イベント
   $("#btn").on("click", function () {
     // let random = Math.floor(Math.random() * 9) + 1; //1~の乱数生成
-    let random = rd(9);
+    let random = rd(10);
 
     //自分の送信イベント
     const msg = {
@@ -144,7 +144,7 @@
     const umsg = msg.text;
     console.log(msg.text);   //この中の値をとる
     // let random = Math.floor(Math.random() * 9) + 1; //1~の乱数生成
-    let random = rd(9);
+    let random = rd(10);
     get( ref(db, `bot/man${random}`)).then((snapshot) => {
       const data = snapshot.val();
       console.log(data);

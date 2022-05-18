@@ -23,7 +23,7 @@
       <img src="https://joeschmoe.io/api/v1/female/random" alt="" style="height: 450px;">
     </div>
 
-    <div class="outputarea" style="overflow: auto; height: 450px;">
+    <div class="outputarea" id="outputarea" style="overflow: auto; height: 450px;">
       <div class="outputarea_message" id="outputarea_message"></div>
     </div>
   </div>
@@ -90,7 +90,7 @@
 
   // 送信イベント
   $("#btn").on("click", function () {
-    let random = Math.floor(Math.random() * 9) + 1; //1~の乱数生成
+    let random = Math.floor(Math.random() * 10) + 1; //1~の乱数生成
 
     //自分の送信イベント
     const msg = {
@@ -138,7 +138,7 @@
     const key = data.key;
     const umsg = msg.text;
     console.log(msg.text);   //この中の値をとる
-    let random = Math.floor(Math.random() * 5) + 1; //1~の乱数生成
+    let random = Math.floor(Math.random() * 10) + 1; //1~の乱数生成
     get( ref(db, `bot/wimen${random}`)).then((snapshot) => {
       const data = snapshot.val();
       console.log(data);
@@ -167,10 +167,6 @@
        //onvalueとかで監視対象のグループと、とりたいデータのグループが違うときは？
 
 
-
-
-
-
   //削除
   $("#rmbtn").on("click", function(){
     remove(dbRef);
@@ -182,7 +178,6 @@
   // onChildRemoved(dbRef, function(data){
   //   console.log("text")
   // })
-
 
 
 
